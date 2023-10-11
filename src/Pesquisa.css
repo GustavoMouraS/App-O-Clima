@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:wght@400;500;700&display=swap");
+
+
+*:focus{
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.pesquisa input{
+    font-family: 'Roboto', sans-serif;
+    border-bottom-left-radius:  20px;
+    border-top-left-radius:  20px;
+    border: none;
+    width: 700px;
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.pesquisa button{
+    background-color: rgb(65, 65, 148);
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 100px;
+    height: 32.5px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+.pesquisa button:active{
+    background-color: rgb(33, 33, 85);
+}
