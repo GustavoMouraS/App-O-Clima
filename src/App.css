@@ -2,7 +2,7 @@
 
 body {
   background-color: rgb(152, 193, 255);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -13,9 +13,10 @@ body {
 
 .container {
   background-color: rgb(109, 148, 206);
-  box-shadow: rgba(0,0,0, 0.24) 0px 3px 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   padding: 2rem;
   border-radius: 1rem;
+  margin-bottom: 50px;
 }
 
 .container h2 {
@@ -30,14 +31,98 @@ body {
 }
 
 .weather-data h2 {
-  color: black;  
-}
-
-.hide {
-  display: none;
+  color: white;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.6rem;
 }
 
 .weather-data {
   border-top: 1px solid white;
   margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  color: white;
+}
+
+.icon {
+  font-size: 1rem;
+  margin-right: 0.625rem;
+}
+
+
+.city {
+  margin: .6rem;
+}
+
+.city-input{
+  margin-bottom: 20px;
+}
+
+.country {
+  height: 30px;
+}
+
+.description-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: .6rem 0;
+  color: white;
+}
+.details-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+  .humidity {
+    border-right: 1px solid white;
+    margin: .6rem;
+    padding: .6rem;
+  }
+
+
+  @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:wght@400;500;700&display=swap");
+
+
+*:focus{
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.pesquisa input{
+    font-family: 'Roboto', sans-serif;
+    border-bottom-left-radius:  20px;
+    border-top-left-radius:  20px;
+    border: none;
+    width: 700px;
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.pesquisa button{
+    background-color: rgb(65, 65, 148);
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 100px;
+    height: 32.5px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+.pesquisa button:active{
+    background-color: rgb(33, 33, 85);
+}
+
+.description{
+  font-weight: bold;
+  text-transform: capitalize;
 }
